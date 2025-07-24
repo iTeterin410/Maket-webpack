@@ -1,0 +1,130 @@
+.main {
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  background-color: #f8f8f8;
+}
+.read-more__button {
+  border: 0px;
+  background-color: #f8f8f8;
+  min-width: 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.read-more__icon {
+  background-image: url(../img/icons/main/text-open.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+.main__header-panel {
+  display: none;
+}
+
+/*Розовая кнопка*/
+
+.header__separator--after {
+  display: flex;
+}
+
+/*main*/
+
+.main__header {
+  width: 304px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+
+.main__header::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 50;
+  width: 8px;
+  height: 40px;
+  background: #2ff5e0;
+  border-radius: 0 4px 4px 0;
+}
+.main__header-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  color: #1b1c21;
+}
+.navigation__list {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  list-style: none;
+  gap: 19px;
+  padding: 0;
+  margin-bottom: 24px;
+  min-height: 50px;
+  align-items: center;
+
+  scrollbar-width: none;
+}
+
+.navigation__item {
+  flex-shrink: 0;
+  padding: 10px 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #7e7e82;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.navigation__item:hover {
+  background: #ffffff;
+  border: 2px solid #b8ffec;
+}
+.navigation__item--active {
+  background: #ffffff;
+  border: 2px solid #b8ffec;
+}
+
+.navigation__list::-webkit-scrollbar {
+  display: none;
+}
+
+.main__description p {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #1b1c21;
+  margin-bottom: 16px;
+}
+.main__text-scroll {
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.read-more__text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+}
+.content-block {
+  display: block;
+}
+
+.main__image img {
+  width: 100%;
+}
+.content-block__image {
+  margin-left: -16px;
+}

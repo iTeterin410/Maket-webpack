@@ -1,0 +1,20 @@
+.technic__slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+  width: 240px;
+  height: 72px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: auto;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+}

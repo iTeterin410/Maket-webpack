@@ -1,0 +1,115 @@
+.header {
+  margin: 0;
+  padding-right: 16px;
+  padding-bottom: auto;
+  padding-left: 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+
+  height: 88px;
+  border-bottom: 1px solid #d9fff5;
+}
+.header__left-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.header__right-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header__center-panel--active {
+  display: none;
+}
+.header__separator {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+.header__separator--before {
+  display: none;
+}
+.header__separator--after {
+  display: flex;
+}
+.round-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.round-button--ping {
+  background-color: #ff3e79;
+  border: none;
+}
+.round-button--icburger {
+  background-image: url(../img/icons/header/icburger.svg);
+}
+.round-button--icsearch {
+  background-image: url(../img/icons/header/icsearch.svg);
+}
+.round-button--call {
+  background-image: url(../img/icons/header/call.svg);
+}
+.round-button--chat {
+  background-image: url(../img/icons/header/chat.svg);
+}
+.round-button--profile {
+  background-image: url(../img/icons/header/profile.svg);
+}
+.round-button--repair {
+  background-image: url(../img/icons/header/repair.svg);
+}
+.round-button--checkstatus {
+  background-image: url(../img/icons/header/checkstatus.svg);
+}
+.round-button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.round-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse; /* Меняем порядок: иконка справа, текст слева */
+  align-items: center;
+}
+.round-button--ping {
+  background-color: #ff3e79;
+  border: none;
+}
+.round-button--burger {
+  background-image: url(../img/icons/header/burger.svg);
+}
+.round-button--call {
+  background-image: url(../img/icons/header/call.svg);
+}
+.round-button--chat {
+  background-image: url(../img/icons/header/chat.svg);
+}
+.round-button--profile {
+  background-image: url(../img/icons/header/profile.svg);
+}
+.round-button--repair {
+  background-image: url(../img/icons/header/repair.svg);
+}
+.round-button--checkstatus {
+  background-image: url(../img/icons/header/checkstatus.svg);
+}
+

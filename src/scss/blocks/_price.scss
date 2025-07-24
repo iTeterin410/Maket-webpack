@@ -1,0 +1,31 @@
+.price-text {
+  margin-left: 16px;
+  max-width: 421px;
+  width: 100vw;
+  min-width: 200px;
+  height: auto;
+  font-family: TT Lakes;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+}
+.price-text__link {
+  display: block;
+  margin-top: 16px;
+  width: 200px;
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+}
+.price-text__imge {
+  margin-left: 10px;
+  background-size: 16px 16px;
+}

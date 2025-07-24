@@ -1,0 +1,120 @@
+.modal {
+  width: 320px;
+  height: 676px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-top: 24px;
+  /* border: solid 2px red; */
+  background: #ffffff;
+}
+
+.modal::before {
+  margin-top: 50px;
+  margin-bottom: 8px;
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 50;
+  width: 4px;
+  height: 40px;
+  background: #2ff5e0;
+  border-radius: 0 4px 4px 0;
+  border-radius: 10px;
+}
+.modal-form__input {
+  box-sizing: border-box;
+  padding-left: 16px;
+  width: 288px;
+  height: 48px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: solid 2px #eaeaea;
+
+  font-family: TT Lakes;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.modal-form__textarea {
+  box-sizing: border-box;
+  padding-left: 16px;
+  width: 288px;
+  height: 118px;
+  /* margin-bottom: 16px; */
+  border-radius: 10px;
+  border: solid 2px #eaeaea;
+
+  font-family: TT Lakes;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.modal-form__disclaimer {
+  font-family: TT Lakes;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #a09f9f;
+}
+.modal-form__link {
+  color: #ff3e79;
+}
+.long-button {
+  display: block;
+  margin-left: auto;
+  margin-top: 19px;
+  margin-right: 16px;
+  width: 136px;
+  height: 32px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ff3e79;
+}
+.long-button__imge {
+  margin-left: 10px;
+}
+.modal--active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 100;
+  display: inline-block;
+}
+.modal--feedback {
+  transform: translateX(-100%);
+  opacity: 0;
+
+  pointer-events: none;
+  visibility: hidden;
+}
+.modal.modal--feedback.modal--active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  z-index: 100;
+}
+
+.modal--callback {
+  transform: translateX(-100%);
+  opacity: 0;
+
+  pointer-events: none;
+  visibility: hidden;
+}
+.modal.modal--callback.modal--active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  z-index: 100;
+}
